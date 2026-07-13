@@ -4,6 +4,7 @@ import { users } from "../data/users";
 import { useContext } from "react";
 import { AuthContext } from "../context/AuthContext";
 import "../styles/Login.css";
+import logoImg from "../assets/logo.png";
 import "../styles/Navbar.css";
 
 function Login() {
@@ -30,12 +31,13 @@ function Login() {
         }
     }
 
+    
 
     return (
         <div className="login-container">
             <form className="login-box" onSubmit={handleLogin}>
                 <div className="logo">
-                    <img src="src/assets/logo.png" alt=""/>
+                    <img src={logoImg} alt=""/>
                 </div>
                 
                 <label>Email</label>
