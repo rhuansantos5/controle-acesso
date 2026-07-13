@@ -4,7 +4,7 @@ function Fotos() {
     return (
         <>
             <Navbar />
-            <h1>Fotos</h1>
+            <h1 style={{padding:"30px"}}>Fotos</h1>
         </>    
     );
 }

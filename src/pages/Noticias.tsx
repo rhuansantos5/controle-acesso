@@ -1,11 +1,12 @@
 import Navbar from "../components/Navbar";
 
+
 function Noticias() {
 
     return (
         <>
             <Navbar />
-            <h1>Noticias</h1>
+            <h1 style={{padding:"30px"}}>Noticias</h1>
         </>    
     );
 }

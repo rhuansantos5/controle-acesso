@@ -5,7 +5,7 @@ function Contato() {
         <>
             <Navbar />
 
-            <h1>Contato</h1>
+            <h1 style={{padding:"30px"}}>Contato</h1>
         </>
     );
 }

@@ -4,7 +4,7 @@ function Documentos() {
     return (
         <>
             <Navbar />
-            <h1>Documentos</h1>
+            <h1 style={{padding:"30px"}}>Documentos</h1>
         </>    
     );
 }

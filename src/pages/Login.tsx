@@ -35,7 +35,7 @@ function Login() {
         <div className="login-container">
             <form className="login-box" onSubmit={handleLogin}>
                 <div className="logo">
-                    <img src="src/assets/logo.png" alt="logo"/>
+                    <img src="src/assets/logo.png" alt=""/>
                 </div>
                 
                 <label>Email</label>
