@@ -33,8 +33,6 @@ function Login() {
 
     return (
         <div className="login-container">
-            
-
             <form className="login-box" onSubmit={handleLogin}>
                 <div className="logo">
                     <img src="src/assets/logo.png" alt="logo"/>
@@ -57,8 +55,6 @@ function Login() {
                 />
 
                 <button type="submit"> Entrar </button>
-
-
             </form>
         </div>
     );
