@@ -1,5 +1,4 @@
-import { BrowserRouter, Routes, Route } from "react-router-dom";
-
+import { HashRouter, Routes, Route } from "react-router-dom";
 import PrivateRoute from "./routes/PrivateRoute";
 import Login from "./pages/Login";
 import Home from "./pages/Home";
@@ -11,7 +10,7 @@ import AcessoNegado from "./pages/AcessoNegado";
 
 function App() {
   return (
-    <BrowserRouter>
+    <HashRouter>
       <Routes>
         
         <Route path="/" element = {<Login />} />
@@ -59,7 +58,7 @@ function App() {
         <Route path="/acesso-negado" element={<AcessoNegado/>} />
         
       </Routes>
-    </BrowserRouter>  
+    </HashRouter>  
   );
 }
 
