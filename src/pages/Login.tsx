@@ -36,7 +36,10 @@ function Login() {
             
 
             <form className="login-box" onSubmit={handleLogin}>
-                <h1>Geotech</h1>
+                <div className="logo">
+                    <img src="src/assets/logo.png" alt="logo"/>
+                </div>
+                
                 <label>Email</label>
                 <input 
                     type="email" 
